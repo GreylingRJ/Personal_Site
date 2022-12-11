@@ -237,7 +237,6 @@ p {
 
 #footer a {
     color: #113CFC;
-    /*font-family: 'montserrat', sans-serif; */
     margin: 10px 20px;
     text-decoration: none;
 }
@@ -256,30 +255,188 @@ p {
     margin: 20px 10px;
 }
 
-/* start of desktop styles */
+/* Desktop Styles Section */
 
 @media screen and (max-width: 991px) {
     /* start of large tablet styles */
-    
-    }
-    
-    @media screen and (max-width: 767px) {
+
+}
+
+@media screen and (max-width: 767px) {
     /* start of medium tablet styles */
-    
+
+    /* Main Elements */
+
+    h1 {
+        font-size: 2.5rem;
+        line-height: 1.25;
     }
+
+    h2 {
+        font-size: 1.5rem;
+        line-height: 1.25;
+    }
+
     
-    @media screen and (max-width: 479px) {
+    /* Sections */
+
+    .container-fluid {
+        padding: 30px 60px 75px;
+    }
+
+
+    /* Navigation Bar */
+
+    .navbar {
+        padding: 0 15px;
+    }
+
+    .navbar-nav {
+        padding: 15px 15px 0;
+    }
+
+    .nav-item {
+        padding: 0 15px;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+    }
+
+
+    /* Title Section */
+
+    #title .container-fluid {
+        padding: 75px 100px 100px;
+    }
+
+    .title-heading {
+        padding: 30px;
+    }
+
+    .title-img {
+        border-radius: 1.5rem;
+    }
+
+
+    /* Bio Section */
+
+    .bio-box {
+        margin: 45px auto;
+        width: 80%;
+    }
+
+    .production-foreman {
+        padding: 0;
+    }
+
+    .chemical_plant-img {
+        margin-right: 20px;
+        width: 40%;
+    }
+
+    .home_hobby_distiller-img {
+        margin-right: 20px;
+        width: 40%;
+    }
+
+    .web_developer-img {
+        margin-right: 20px;
+        width: 40%;
+    }
+
+
+    /* Education Section */
+
+    #education p {
+        line-height: 1.5;
+    }
+
+    .education-box {
+        margin: 30px auto;
+        padding: 1%;
+    }
+
+    .icon {
+        margin-bottom: 1.1rem;
+        padding-bottom: 3.5%;
+    }
+
+
+    /* Work Experience Section */
+
+    .work-experience-table {
+        margin: 45px auto;
+    }
+
+
+    /* Skills Section */
+
+    .skills-table_progress .progress {
+        margin: 20px 30px;
+        flex-grow: 5;
+        height: 20px;
+    }
+
+
+    /* Hobbies Section */
+
+    .hobbies-img {
+        margin: 30px 15px;
+        width: 55%;
+    }
+
+    .hobbies-text {
+        font-size: 1.75rem;
+        line-height: 1.1;
+    }
+
+    #hobbies-carousel {
+        margin: 37px auto 75px;
+    }
+
+
+    /* Contact Me */
+
+    .contact-message {
+        margin: 30px auto 45px;
+        width: 45%;
+    }
+
+    #contact-me .container-fluid {
+        padding-bottom: 7.5px;
+    }
+
+    .contact-me-box {
+        margin: 45px auto;
+    }
+
+
+    /* Footer Section */
+
+    #footer a {
+        margin: 7.5px 15px;
+    }
+
+    .copyright {
+        padding: 15px 0;
+    }
+
+    .footer-icon {
+        margin: 15px 7.5px;
+    }
+}
+
+@media screen and (max-width: 479px) {
     /* start of phone styles */
-    body {
-        font-family: 'PT Sans', sans-serif;
-        text-align: center;
-    }
-    
+
+    /* Main Elements */
+
     h1 {
         font-family: 'Courgette', cursive;
         font-size: 1.5rem;
     }
-    
+
     h2 {
         font-size: 1.5rem;
     }
@@ -287,172 +444,169 @@ p {
     h3 {
         font-size: 1.25rem;
     }
-    
-    
+
+
     /* Sections */
-    
+
     .container-fluid {
         padding: 20px 40px 50px;
     }
-    
-    
+
+
     /* Navigation Bar */
-    
+
     .navbar {
         padding: 0 10px;
     }
-    
+
     .navbar-nav {
         padding: 10px 10px 0;
     }
-    
+
     .nav-item {
         padding: 0 10px;
         text-align: left;
     }
-    
+
     .nav-link {
         font-size: 1rem;
     }
-    
-    
+
+
     /* Title Section */
-    
+
     #title .container-fluid {
         padding: 45px 75px 75px;
     }
-    
+
     .title-heading {
         padding: 30px;
     }
-    
+
     .title-img {
         border-radius: 1rem;
     }
-    
-    
+
+
     /* Bio Section */
-    
+
     .bio-box {
         margin: 30px auto;
         width: 80%;
     }
-    
+
     .production-foreman {
-        padding: 0; 
+        padding: 0;
         text-align: center;
     }
-    
+
     .chemical_plant-img {
         float: none;
         margin-right: 0;
         width: 100%;
     }
-    
+
     .home-hobby-distiller {
         text-align: center;
     }
-    
+
     .home_hobby_distiller-img {
         float: none;
         margin-left: 0;
         width: 100%;
     }
-    
+
     .web-developer {
         text-align: center;
     }
-    
+
     .web_developer-img {
         float: none;
         margin-right: 0;
         width: 100%;
     }
-    
-    
+
+
     /* Education Section */
-    
-   
-    
+
     #education p {
         line-height: 1.5;
     }
-    
+
     .education-box {
         margin: 20px auto;
         padding: 1%;
     }
-    
+
     .icon {
         margin-bottom: 1rem;
         padding-bottom: 2.5%;
     }
-        
-    
+
+
     /* Work Experience Section */
-    
+
     .work-experience-table {
         margin: 30px auto;
         width: 100%;
     }
-    
-    
+
+
     /* Skills Section */
-        
+
     .skills-table_progress .progress {
         margin: 10px 25px;
         flex-grow: 3;
         height: 20px;
     }
-    
-    
+
+
     /* Hobbies Section */
-    
+
     .hobbies-img {
         width: 80%;
     }
-    
+
     .hobbies-text {
         font-size: 1.25rem;
         line-height: 1.1;
     }
-    
+
     #hobbies-carousel {
         margin: 25px auto 50px;
     }
-    
-    
+
+
     /* Contact Me */
-    
+
     .contact-message {
         margin: 20px auto 30px;
         width: 60%;
     }
-    
+
     #contact-me .container-fluid {
         padding-bottom: 5px;
     }
-    
+
     .contact-me-box {
         margin: 30px auto;
     }
-    
-    
+
+
     /* Footer Section */
-    
+
     #footer a {
         margin: 5px 10px;
         text-decoration: none;
     }
-    
+
     .copyright {
         color: #8f8f8f;
         font-size: 0.75rem;
         padding: 10px 0;
     }
-    
+
     .footer-icon {
         margin: 10px 5px;
     }
-    
-    }
+}
